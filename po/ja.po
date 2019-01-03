@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: caribou master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=caribou&keywords=I18N+L10N&component=default\n"
-"POT-Creation-Date: 2014-08-28 03:00+0000\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/caribou/issues\n"
+"POT-Creation-Date: 2018-06-10 15:53+0000\n"
 "PO-Revision-Date: 2014-08-28 23:14+0000\n"
 "Last-Translator: Noriko Mizumoto <noriko@fedoraproject.org>\n"
 "Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
@@ -179,86 +179,99 @@ msgstr "第 3 ボタン"
 msgid "Caribou"
 msgstr "Caribou"
 
-#: ../caribou/antler/antler_settings.py:5
+#: ../caribou/antler/antler_settings.py:6
 msgid "Antler Preferences"
 msgstr "Antler の設定"
 
-#: ../caribou/antler/antler_settings.py:6
+#: ../caribou/antler/antler_settings.py:7
 msgid "Antler"
 msgstr "Antler"
 
-#: ../caribou/antler/antler_settings.py:7
+#: ../caribou/antler/antler_settings.py:8
 msgid "Appearance"
 msgstr "外観"
 
-#: ../caribou/antler/antler_settings.py:9
+#: ../caribou/antler/antler_settings.py:10
 msgid "Keyboard Type"
 msgstr "キーボードの種類"
 
-#: ../caribou/antler/antler_settings.py:10
+#: ../caribou/antler/antler_settings.py:11
 msgid "The keyboard geometry Caribou should use"
 msgstr "Caribou が使用するキーボードの形状"
 
-#: ../caribou/antler/antler_settings.py:11
-msgid "The keyboard geometry determines the shape and complexity of the keyboard, it could range from a 'natural' look and feel good for composing simple text, to a fullscale keyboard."
-msgstr "キーボードの形状とは、キーボードの形や複雑さを意味します。ちょっとしたテキストを書くのに適した'素朴な'外観のものから、フルスケールのキーボードまで、多岐に渡ります。"
+#: ../caribou/antler/antler_settings.py:12
+msgid ""
+"The keyboard geometry determines the shape and complexity of the keyboard, "
+"it could range from a “natural” look and feel good for composing simple "
+"text, to a fullscale keyboard."
+msgstr ""
+"キーボードの形状とは、キーボードの形や複雑さを意味します。ちょっとしたテキス"
+"トを書くのに適した“素朴な”外観のものから、フルスケールのキーボードまで、多岐"
+"に渡ります。"
 
 #. Translators: Keyboard type (similar to touch/tactile device)
-#: ../caribou/antler/antler_settings.py:16
+#: ../caribou/antler/antler_settings.py:17
 msgid "Touch"
 msgstr "タッチ"
 
 #. Translators: Keyboard type (conventional keyboard)
-#: ../caribou/antler/antler_settings.py:18
+#: ../caribou/antler/antler_settings.py:19
 msgid "Full scale"
 msgstr "フルスケール"
 
 #. Translators: Keyboard type (scanned grid by rows/columns)
-#: ../caribou/antler/antler_settings.py:20
+#: ../caribou/antler/antler_settings.py:21
 msgid "Scan"
 msgstr "スキャン"
 
-#: ../caribou/antler/antler_settings.py:21
 #: ../caribou/antler/antler_settings.py:22
+#: ../caribou/antler/antler_settings.py:23
 msgid "Use System Theme"
 msgstr "システムのテーマを使用する"
 
-#: ../caribou/antler/antler_settings.py:23
+#: ../caribou/antler/antler_settings.py:24
 msgid "Minimum Alpha"
 msgstr "最小アルファ値"
 
-#: ../caribou/antler/antler_settings.py:24
+#: ../caribou/antler/antler_settings.py:25
 msgid "Minimal opacity of keyboard"
 msgstr "キーボードの最小不透明度"
 
-#: ../caribou/antler/antler_settings.py:26
+#: ../caribou/antler/antler_settings.py:27
 msgid "Maximum Alpha"
 msgstr "最大アルファ値"
 
-#: ../caribou/antler/antler_settings.py:27
+#: ../caribou/antler/antler_settings.py:28
 msgid "Maximal opacity of keyboard"
 msgstr "キーボードの最大不透明度"
 
-#: ../caribou/antler/antler_settings.py:29
+#: ../caribou/antler/antler_settings.py:30
 msgid "Maximum Distance"
 msgstr "最大間隔"
 
-#: ../caribou/antler/antler_settings.py:30
+#: ../caribou/antler/antler_settings.py:31
 msgid "Maximum distance when keyboard is hidden"
 msgstr "キーボードが非表示になるときの最大間隔"
 
-#: ../daemon/daemon.vala:191
-msgid "- daemon listening accessibility events to launch on screen keyboard"
-msgstr "- アクセシビリティイベントを待ち受けてオンスクリーンキーボードを起動するデーモン"
+#~ msgid "- daemon listening accessibility events to launch on screen keyboard"
+#~ msgstr ""
+#~ "- アクセシビリティイベントを待ち受けてオンスクリーンキーボードを起動する"
+#~ "デーモン"
 
 #~ msgid "Error starting %s"
 #~ msgstr "%s を起動できません"
 
-#~ msgid "In order to use %s, accessibility needs to be enabled. Do you want to enable it now?"
-#~ msgstr "%s を使用するにはアクセシビリティ機能を有効にする必要があります。有効にしますか?"
+#~ msgid ""
+#~ "In order to use %s, accessibility needs to be enabled. Do you want to "
+#~ "enable it now?"
+#~ msgstr ""
+#~ "%s を使用するにはアクセシビリティ機能を有効にする必要があります。有効にし"
+#~ "ますか?"
 
 #~ msgid "Accessibility has been enabled. Log out and back in again to use %s."
-#~ msgstr "アクセシビリティ機能が有効になりました。%s を使用するにはログインしなおしてください。"
+#~ msgstr ""
+#~ "アクセシビリティ機能が有効になりました。%s を使用するにはログインしなおし"
+#~ "てください。"
 
 #~ msgid "WARNING - Caribou: unhandled editable widget:"
 #~ msgstr "警告 - Caribou: 処理できない入力ウィジェット:"
