@@ -5,21 +5,22 @@
 # Alexandr Toorchyn <ilex@mail.ua>, 2011.
 # Korostil Daniel <ted.korostiled@gmail.com>, 2011.
 # Daniel Korostil <ted.korostiled@gmail.com>, 2014, 2015.
+# Yuri Chornoivan <yurchor@ukr.net>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: caribou master\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-27 23:10+0200\n"
-"PO-Revision-Date: 2015-02-27 23:11+0300\n"
-"Last-Translator: Daniel Korostil <ted.korostiled@gmail.com>\n"
-"Language-Team: linux.org.ua\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/caribou/issues\n"
+"POT-Creation-Date: 2018-06-10 15:53+0000\n"
+"PO-Revision-Date: 2020-03-28 09:26+0200\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Virtaal 0.7.1\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 20.03.70\n"
 "X-Project-Style: gnome\n"
 
 #: ../caribou/settings/caribou_settings.py:5
@@ -182,30 +183,34 @@ msgstr "Кнопка 3"
 msgid "Caribou"
 msgstr "Caribou"
 
-#: ../caribou/antler/antler_settings.py:5
+#: ../caribou/antler/antler_settings.py:6
 msgid "Antler Preferences"
 msgstr "Параметри Antler"
 
-#: ../caribou/antler/antler_settings.py:6
+#: ../caribou/antler/antler_settings.py:7
 msgid "Antler"
 msgstr "Antler"
 
-#: ../caribou/antler/antler_settings.py:7
+#: ../caribou/antler/antler_settings.py:8
 msgid "Appearance"
 msgstr "Вигляд"
 
-#: ../caribou/antler/antler_settings.py:9
+#: ../caribou/antler/antler_settings.py:10
 msgid "Keyboard Type"
 msgstr "Тип клавіатури"
 
-#: ../caribou/antler/antler_settings.py:10
+#: ../caribou/antler/antler_settings.py:11
 msgid "The keyboard geometry Caribou should use"
 msgstr "Геометрія клавіатури, яку використовуватиме Caribou"
 
-#: ../caribou/antler/antler_settings.py:11
+#: ../caribou/antler/antler_settings.py:12
+#| msgid ""
+#| "The keyboard geometry determines the shape and complexity of the "
+#| "keyboard, it could range from a 'natural' look and feel good for "
+#| "composing simple text, to a fullscale keyboard."
 msgid ""
 "The keyboard geometry determines the shape and complexity of the keyboard, "
-"it could range from a 'natural' look and feel good for composing simple "
+"it could range from a “natural” look and feel good for composing simple "
 "text, to a fullscale keyboard."
 msgstr ""
 "Геометрія клавіатури визначає форму і складність клавіатури, вона може бути "
@@ -213,142 +218,45 @@ msgstr ""
 "клавіатури."
 
 #. Translators: Keyboard type (similar to touch/tactile device)
-#: ../caribou/antler/antler_settings.py:16
+#: ../caribou/antler/antler_settings.py:17
 msgid "Touch"
 msgstr "Дотична"
 
 #. Translators: Keyboard type (conventional keyboard)
-#: ../caribou/antler/antler_settings.py:18
+#: ../caribou/antler/antler_settings.py:19
 msgid "Full scale"
 msgstr "Повномасштабна"
 
 #. Translators: Keyboard type (scanned grid by rows/columns)
-#: ../caribou/antler/antler_settings.py:20
+#: ../caribou/antler/antler_settings.py:21
 msgid "Scan"
 msgstr "Сканувальна"
 
-#: ../caribou/antler/antler_settings.py:21
 #: ../caribou/antler/antler_settings.py:22
+#: ../caribou/antler/antler_settings.py:23
 msgid "Use System Theme"
 msgstr "Використовувати системну тему"
 
-#: ../caribou/antler/antler_settings.py:23
+#: ../caribou/antler/antler_settings.py:24
 msgid "Minimum Alpha"
 msgstr "Мінімальна альфа"
 
-#: ../caribou/antler/antler_settings.py:24
+#: ../caribou/antler/antler_settings.py:25
 msgid "Minimal opacity of keyboard"
 msgstr "Мінімальна непрозорість клавіатури"
 
-#: ../caribou/antler/antler_settings.py:26
+#: ../caribou/antler/antler_settings.py:27
 msgid "Maximum Alpha"
 msgstr "Максимальна альфа"
 
-#: ../caribou/antler/antler_settings.py:27
+#: ../caribou/antler/antler_settings.py:28
 msgid "Maximal opacity of keyboard"
 msgstr "Максимальна непрозорість клавіатури"
 
-#: ../caribou/antler/antler_settings.py:29
+#: ../caribou/antler/antler_settings.py:30
 msgid "Maximum Distance"
 msgstr "Максимальна відстань"
 
-#: ../caribou/antler/antler_settings.py:30
+#: ../caribou/antler/antler_settings.py:31
 msgid "Maximum distance when keyboard is hidden"
 msgstr "Максимальна відстань, коли клавіатуру сховано"
-
-#: ../daemon/daemon.vala:214
-msgid "- accessibility event monitoring daemon for screen keyboard"
-msgstr "— служба, яка відслідковує події для екранної клавіатури"
-
-#~ msgid "Error starting %s"
-#~ msgstr "Помилка запускання %s"
-
-#~ msgid ""
-#~ "In order to use %s, accessibility needs to be enabled. Do you want to "
-#~ "enable it now?"
-#~ msgstr ""
-#~ "Потрібно увімкнути доступність, щоб користуватись %s. Увімкнути їх зараз?"
-
-#~ msgid "Accessibility has been enabled. Log out and back in again to use %s."
-#~ msgstr ""
-#~ "Доступність увімкнено. Вийдіть з сеансу і увійдіть знову, щоб "
-#~ "користуватись %s."
-
-#~ msgid "WARNING - Caribou: unhandled editable widget:"
-#~ msgstr "ЗАСТЕРЕЖЕННЯ — Caribou: необроблений змінюваний віджет:"
-
-#~ msgid "Keyboard layout"
-#~ msgstr "Розкладка клавіатури"
-
-#~ msgid ""
-#~ "The layout should be in the data directory of Caribou (usually /usr/share/"
-#~ "caribou/keyboards) and should be a .xml or .json file."
-#~ msgstr ""
-#~ "Розкладка має бути в каталозі даних Caribou (зазвичай /usr/share/caribou/"
-#~ "keyboards) у форматі файлів .xml або .json."
-
-#~ msgid "Color"
-#~ msgstr "Колір"
-
-#~ msgid "Use the default theme colors"
-#~ msgstr "Використовувати типову тему кольорів"
-
-#~ msgid "Normal state"
-#~ msgstr "Нормальний стан"
-
-#~ msgid "Color of the keys when there is no event on them"
-#~ msgstr "Колір неактивних клавіш"
-
-#~ msgid "Mouse over"
-#~ msgstr "Під вказівником миші"
-
-#~ msgid "Color of the keys when the mouse goes over the key"
-#~ msgstr "Колір клавіш під вказівником миші"
-
-#~ msgid "Font and size"
-#~ msgstr "Шрифт та розмір"
-
-#~ msgid "Use system fonts"
-#~ msgstr "Використовувати системні шрифти"
-
-#~ msgid "Use the default system font for keyboard"
-#~ msgstr "Типовий системний шрифт для клавіатури"
-
-#~ msgid "Key font"
-#~ msgstr "Шрифт клавіш"
-
-#~ msgid "Custom font for keyboard"
-#~ msgstr "Власний шрифт для клавіатури"
-
-#~ msgid "Block"
-#~ msgstr "Блок"
-
-#~ msgid "Row"
-#~ msgstr "Рядок"
-
-#~ msgid "Scan in reverse order"
-#~ msgstr "Сканування в зворотному порядку"
-
-#~ msgid "Block color"
-#~ msgstr "Колір блоку"
-
-#~ msgid "Color of block scans"
-#~ msgstr "Колір блоку сканування"
-
-#~ msgid "Row color"
-#~ msgstr "Колір рядка"
-
-#~ msgid "Color of row scans"
-#~ msgstr "Колір рядка  сканування"
-
-#~ msgid "Key color"
-#~ msgstr "Колір клавіші"
-
-#~ msgid "Color of key scans"
-#~ msgstr "Колір клавіші сканування"
-
-#~ msgid "Cancel color"
-#~ msgstr "Колір скасування"
-
-#~ msgid "Color of cancel scan"
-#~ msgstr "Колір скасування сканування"
