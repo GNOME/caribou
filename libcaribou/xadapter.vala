@@ -195,15 +195,10 @@ namespace Caribou {
 
             Xkb.MapChanges changes = Xkb.MapChanges ();
 
-            // We don't touch key types here but include the
-            // information in XkbSetMap request to the server, because
-            // some X servers need the information to check the sanity
-            // of the keysyms change.
-            changes.changed = (ushort) (Xkb.KeySymsMask | Xkb.KeyTypesMask);
+            changes.changed = (ushort) Xkb.KeySymsMask;
             changes.first_key_sym = (char) this.reserved_keycode;
             changes.num_key_syms = this.xkbdesc.map.key_sym_map[this.reserved_keycode].width;
-            changes.first_type = 0;
-            changes.num_types = this.xkbdesc.map.num_types;
+
             Xkb.change_map (this.xdisplay, this.xkbdesc, changes);
 
             this.xdisplay.flush ();
