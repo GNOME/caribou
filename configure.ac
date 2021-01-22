@@ -48,7 +48,6 @@ PYGOBJECT_REQUIRED=2.90.3
 GTK_REQUIRED=3.0.0
 CLUTTER_REQUIRED=1.5.11
 GDK_REQUIRED=3.0.0
-VALADOC_REQUIRED=0.3.1
 
 PKG_CHECK_MODULES(CARIBOU, [
   pygobject-3.0 >= $PYGOBJECT_REQUIRED,
@@ -61,7 +60,7 @@ PKG_CHECK_MODULES(CARIBOU, [
 AC_SUBST(CARIBOU_CFLAGS)
 AC_SUBST(CARIBOU_LIBS)
 
-AM_PROG_VALAC([0.13])
+AM_PROG_VALAC([0.40])
 AC_SUBST(VALAC)
 AC_SUBST(VALAFLAGS)
 
@@ -137,8 +136,6 @@ AM_CONDITIONAL([ENABLE_DOCS], [test x$enable_docs = xyes])
 
 have_valadoc=no
 AS_IF([test x$enable_docs = xyes], [
-  # make sure the library is new enough and the program exists
-  PKG_CHECK_MODULES([VALADOC], [valadoc-1.0 >= $VALADOC_REQUIRED])
   AC_PATH_PROG([VALADOC], [valadoc], [:])
   AS_IF([test "$VALADOC" != :], have_valadoc=yes)
 ])

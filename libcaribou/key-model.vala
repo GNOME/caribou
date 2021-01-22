@@ -101,7 +101,7 @@ namespace Caribou {
                     unichar uc;
                     while (text.get_next_char (ref index, out uc)) {
                         uint keyval = Gdk.unicode_to_keyval (uc);
-                        if (keyval != uc | 0x01000000)
+                        if (keyval != (uc | 0x01000000))
                             _keyvals += keyval;
                     }
                 } else {
