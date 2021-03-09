@@ -209,7 +209,7 @@ msgid ""
 "text, to a fullscale keyboard."
 msgstr ""
 "La geometria del teclat determina la forma i complexitat del teclat. Pot "
-"variar d'una aparença «natural» per poder escriure un text senzill a un "
+"variar d'una aparença «natural» per a poder escriure un text senzill a un "
 "teclat complet."
 
 #. Translators: Keyboard type (similar to touch/tactile device)
